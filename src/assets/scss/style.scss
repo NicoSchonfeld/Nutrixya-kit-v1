@@ -1,0 +1,168 @@
+/*================================================================================
+	Item Name: Vuexy - Vuejs, HTML & Laravel Admin Dashboard Template
+	Version: 2.0
+	Author: PIXINVENT
+	Author URL: http://www.themeforest.net/user/pixinvent
+================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+
+@font-face {
+  font-family: NixieOne;
+  src: url(../txt/NixieOne.ttf);
+}
+
+.txtLogo {
+  font-family: NixieOne;
+}
+
+.color-ejemplo {
+  color: #28c76f;
+}
+
+.color-logo {
+  color: #28c76f;
+}
+
+.error_input_register {
+  border: none;
+  outline: 1px solid #ff6961;
+  border-radius: 5px;
+
+  &:focus {
+    border: none;
+    outline: 1px solid #ff6961;
+    border-radius: 5px;
+  }
+}
+
+.error_input_message_register {
+  color: #ff6961;
+}
+
+// =========================================================
+
+.padding-content-styles {
+  padding: 110px 40px 0 40px !important;
+}
+
+.menu-ul-styles {
+  width: auto;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 25px;
+
+  margin: 0;
+  padding: 0;
+}
+
+.Navlink-style-dark {
+  color: #d0d2d6;
+  font-size: 13px;
+
+  &:hover {
+    color: #28c76f;
+  }
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+
+.Navlink-style-light {
+  color: #6e6b7b;
+  font-size: 13px;
+
+  &:hover {
+    color: #28c76f;
+  }
+
+  padding: 0;
+  margin: 0;
+
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 5px;
+}
+
+.containerLogo-styles {
+  padding: 0 0 0 30px;
+
+  display: flex;
+  align-items: center;
+  flex-flow: row nowrap;
+  gap: 10px;
+}
+
+.color-Nutrixya-styles {
+  color: #28c76f;
+  font-weight: 700;
+}
+
+// =====================================================================================
+
+.name-accoutn-user {
+  font-size: 16px;
+}
+
+.btn-close-accoutn {
+  color: #ff6961;
+  cursor: pointer;
+
+  &:hover {
+    color: #ff6961;
+  }
+}
+
+.gap-15-styles {
+  gap: 3px;
+}
+
+.margin-none-styles {
+  margin: 0;
+}
+
+.padding-none-styles {
+  padding: 0;
+}
+
+.hoverDelete {
+  cursor: pointer;
+  transition: all 300ms ease;
+}
+
+.hoverDelete:hover {
+  color: #ff6961;
+}
+
+.pointer {
+  cursor: pointer;
+}
+
+// ===================================================================================
+
+.margin-bajo {
+  margin: 6px 0px 0px 0px;
+}
+
+.margin-bajoDos {
+  margin: 7px 0px 0px 0px;
+}
+
+// ===================================================================================
+
+.colorChart {
+  width: 10px;
+  height: 10px;
+  border-radius: 100%;
+}
